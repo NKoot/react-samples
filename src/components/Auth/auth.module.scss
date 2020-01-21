@@ -1,0 +1,43 @@
+.auth {
+    width: 90%;
+    margin: 0 auto;
+}
+.auth__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    //background: #fff;
+    :global .link{
+        color: white;
+        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+    }
+}
+.auth__block p {
+    margin: 30px 0 0;
+}
+.error__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0 0;
+    align-items: center;
+    margin: 0;
+}
+.auth__header {
+    font-weight: bold;
+    font-family: Helvetica Neue;
+    line-height: 1.22;
+    margin-bottom: 20px;
+}
+.bgBlue {
+    background-color: #D7ECF4 !important;
+}
+@media screen and (min-width: 768px) {
+    .auth {
+        //width: 30%;
+    }
+}
