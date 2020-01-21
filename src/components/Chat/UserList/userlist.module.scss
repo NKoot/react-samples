@@ -1,0 +1,25 @@
+.chatUserList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: #92959E;
+    font-size: .9em;
+    overflow: hidden;
+}
+.chatUserList li {
+    color: #666;
+    margin: 0 5px 0 0;
+    font-size: inherit;
+    float: left;
+}
+.status {
+    margin: 0 3px;
+    font-size: 1em;
+    float: left;
+}
+.status.online {
+    color: #48ef05;
+}
+.status.offline {
+    color: #f35555;
+}
